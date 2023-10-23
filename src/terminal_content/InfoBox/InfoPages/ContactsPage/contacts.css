@@ -1,0 +1,35 @@
+.line:after {
+   content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px dashed white
+}
+
+.contactsContainer {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   width: 450px;
+}
+
+.flexI {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   grid-gap: 20px;
+}
+
+.teleIcon {
+margin-top: -15px;
+}
+
+.icon {
+   transition: transform 0.05s linear;
+}
+
+.icon:active {
+   transform: scale(125%);
+}

@@ -1,0 +1,84 @@
+.marvelousMe {
+   height: 80%;
+}
+
+.aboutTextGrid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 60px 200px;
+  grid-template-rows: 50px 50px 50px;
+  grid-template-columns: 150px 150px;
+  margin-top: 50px;
+}
+
+.aboutTextBox {
+  background-color: white;
+  position: absolute;
+  z-index: 99;
+  width: 500px;
+  height: 270px;
+}
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  z-index: 99999;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+  z-index: 99999;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.aboutText {
+   position: relative;
+   color: black;
+   width: 90%;
+   padding-left: 10px;
+   padding-top: 10px;
+   word-break: break-all;
+}
+
+.aboutButtons {
+   font-family: "VT323", monospace;
+
+   background-color:transparent;
+   border:2px solid rgb(22, 135, 167);
+   color: rgb(22, 135, 167);
+   font-weight:bold;
+   box-shadow:inset 0px 0px 0px 1px rgb(49, 31, 95);
+   opacity: 85%;
+}
+
+.aboutButtons.back {
+  width: 150.311px;
+  height: 50.9415px;
+  margin-top: 15px;
+}
+
+.meBtn {
+  position: relative;
+  top: 20px;
+}
+
+.aboutButtonsActive {
+   background-color: rgb(22, 135, 167);
+   color: rgb(237, 255, 177);
+}

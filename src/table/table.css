@@ -1,0 +1,6 @@
+.table {
+   position: absolute;
+   z-index: -1;
+   inset: 430px 100px;
+   width: 90%;
+}

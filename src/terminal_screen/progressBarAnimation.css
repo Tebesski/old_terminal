@@ -1,0 +1,180 @@
+.bottomRightAnimation {
+  position: absolute;
+  inset: 230px 760px;
+
+  height: 25px;
+
+  border: none;
+  border-bottom: 2px dotted white;
+  z-index: 20;
+
+  animation-name: bottomRightAnimation;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.bottomLeftAnimation {
+  position: absolute;
+  inset: 230px 760px;
+
+  height: 25px;
+
+  border: none;
+  border-bottom: 2px dotted white;
+  z-index: 20;
+
+  animation-name: bottomLeftAnimation;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bottomRightAnimation {
+  from {
+    opacity: 0%;
+    width: 1px;
+  }
+  to {
+    opacity: 100%;
+    width: 54.5px;
+  }
+}
+
+@keyframes bottomLeftAnimation {
+  from {
+    opacity: 0%;
+    width: 1px;
+  }
+  to {
+    opacity: 100%;
+    width: 54.5px;
+    left: 705.5px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+
+.progressBarAnimationPillarRight {
+  position: absolute;
+  inset: 230px 813px;
+  opacity: 0%;
+
+  height: 25px;
+
+  border: none;
+  border-right: 2px dotted white;
+  z-index: 20;
+
+  animation-name: progressBarAnimationPillarRight;
+  animation-delay: 0.6s;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.progressBarAnimationPillarLeft {
+  position: absolute;
+  inset: 230px 705.8px;
+  opacity: 0%;
+
+  height: 25px;
+
+  border: none;
+  border-left: 2px dotted white;
+  z-index: 20;
+
+  animation-name: progressBarAnimationPillarLeft;
+  animation-delay: 0.6s;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes progressBarAnimationPillarRight {
+  from {
+    opacity: 0%;
+    height: 1px;
+    top: 255px;
+  }
+  to {
+    opacity: 100%;
+    height: 25px;
+    top: 230px;
+  }
+}
+
+@keyframes progressBarAnimationPillarLeft {
+  from {
+    opacity: 0%;
+    height: 1px;
+    top: 255px;
+  }
+  to {
+    opacity: 100%;
+    height: 25px;
+    top: 230px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+
+.progressBarAnimationTopRight {
+  position: absolute;
+  inset: 230px 813px;
+  opacity: 0%;
+
+  border: none;
+  border-top: 2px dotted white;
+  z-index: 20;
+
+  animation-name: progressBarAnimationTopRight;
+  animation-delay: 1.2s;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.progressBarAnimationTopLeft {
+  position: absolute;
+  inset: 230px 705.8px;
+  opacity: 0%;
+
+  border: none;
+  border-top: 2px dotted white;
+  z-index: 20;
+
+  animation-name: progressBarAnimationTopLeft;
+  animation-delay: 1.2s;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes progressBarAnimationTopRight {
+  from {
+    opacity: 0%;
+    width: 1px;
+  }
+  to {
+    width: 54.5px;
+    opacity: 100%;
+    left: 760px;
+  }
+}
+
+@keyframes progressBarAnimationTopLeft {
+  from {
+    opacity: 0%;
+    width: 1px;
+  }
+  to {
+    opacity: 100%;
+    width: 54.5px;
+    left: 705.8px;
+  }
+}

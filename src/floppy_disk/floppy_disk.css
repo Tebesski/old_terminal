@@ -1,0 +1,12 @@
+.floppy {
+   position: absolute;
+   width: 10%;
+   height: auto;
+   z-index: 2;
+   inset: 440px 1000px;
+}
+
+.zoomedFloppy {
+   transform: scale(1.5);
+   transition: transform 0.4s;
+}

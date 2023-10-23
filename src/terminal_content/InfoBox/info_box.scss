@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=VT323&display=swap');
+
+.infoBox {
+   position: relative;
+   margin: auto;
+   top: 50px;
+
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+   width: 628px;
+   height: 400px;
+   padding: 8px 16px 8px 16px;
+
+   opacity: 85%;
+   background-color: transparent;
+
+   font-family: "VT323", monospace;
+
+   border: 2px dashed white;
+}
+
+.arrowDown {
+   font-size: 60px;
+}
+
+.arrowUp {
+   font-size: 60px;
+}

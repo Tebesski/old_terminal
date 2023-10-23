@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=VT323&display=swap');
+
+#contentContainer {
+   position: absolute;
+   inset: 90px 370px;
+   border: 2px white;
+   border-radius: 27px;
+   width: 725px;
+   height: 535px;
+   color: white;
+   z-index: 1;
+   transform: rotate(1.001turn);
+   /* cursor: url(../../images/cursor_icons/square_cursor.png), pointer; */
+}
+
+.btnContainer {
+   position: relative;
+   top: 40px;
+
+   margin-left: 5%;
+   width: 90%;
+
+   display: flex;
+   justify-content: space-around;
+}
+
+.button {
+   width: 105px;
+   height: 40px;
+   font-family: "VT323", monospace;
+   font-size: 1.5em;
+
+   background-color:transparent;
+   border:2px solid rgb(22, 135, 167);
+   color: rgb(22, 135, 167);
+   font-weight:bold;
+   box-shadow:inset 0px 0px 0px 1px rgb(49, 31, 95);
+   opacity: 85%;
+}
+
+button.inactive {
+   color: gray;
+   border-color: gray;
+}
+
+.buttonActive {
+   background-color: rgb(22, 135, 167);
+   color: rgb(237, 255, 177);
+}
+
+@keyframes fingerDisappear {
+   from {
+      opacity: 1;
+   }
+   to {
+      opacity: 0;
+   }
+}

@@ -1,0 +1,28 @@
+.gallery-container {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+}
+
+.gallery-item {
+   object-fit: cover;
+   height: 75%;
+   width: 75%;
+}
+
+.scroll {
+   font-size: 60px;
+   font-style: normal;
+   text-decoration: none;
+   color: white;
+   background-color: transparent;
+   border: none;
+}
+
+.scroll.active {
+   color: white;
+}
+
+.scroll.inactive {
+   color: gray;
+}

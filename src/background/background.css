@@ -1,0 +1,16 @@
+.pageContainer {
+  overflow: hidden;
+  position: relative;
+  /* cursor: auto; */
+}
+
+.zoomedBackground {
+  transform: scale(1.4);
+  transition: transform 0.5s;
+  background-image: "https://cdna.artstation.com/p/assets/images/images/048/775/512/large/eidorian-art-bunker-abandonado-fondo.jpg?1650913246";
+}
+
+.unzoomedBackground {
+  transform: scale(1);
+  transition: transform 0.5s;
+}

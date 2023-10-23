@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=VT323&display=swap');
+
+.terminalScreen {
+  position: absolute;
+  inset: 130px 525px;
+  /* cursor: auto; */
+}
+
+#terminalProgressBar {
+  position: absolute;
+  inset: 230px 705.7px;
+  width: 109px;
+  height: 25px;
+
+  font-size: 2em;
+  text-align: left;
+  z-index: 3;
+  font-family: "VT323", monospace;
+  color: green;
+  background-color: transparent;
+  outline: none;
+  caret-color: transparent;
+
+  border: 2px dotted white;
+}
+
+#clearTextInput {
+  position: absolute;
+  top: -100px;
+}
+
+#terminalPasswordField {
+  position: absolute;
+  width: 125px;
+  height: 75px;
+  inset: 205px 700px;
+  font-size: 2.6em;
+  text-align: center;
+  z-index: 3;
+  font-family: "VT323", monospace;
+  color: green;
+  background-color: transparent;
+  border: 1px solid green;
+  outline: none;
+  caret-color: transparent
+}
+
+.terminalSetup {
+  z-index: 1;
+  position: absolute;
+  inset: 0 0 0 0;
+}
+
+.zoomedSetup {
+  transform: scale(4.2);
+  transform-origin: 50% 29%;
+  transition: transform 0.4s;
+}
+
+.unzoomedSetup {
+  transform: scale(1);
+  transform-origin: 50% 25%;
+  transition: transform 0.4s;
+}
